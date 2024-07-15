@@ -1,0 +1,14 @@
+﻿@model IEnumerable<BarDaFatima.Web.Models.Mesa>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-action="Nova">Cadastrar Nova Mesa</a>
+</p>
+
+@Html.Partial("_lista", Model)
+

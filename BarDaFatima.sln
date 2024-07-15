@@ -1,0 +1,60 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34728.123
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BarDaFatima.Web", "BarDaFatima.Web\BarDaFatima.Web.csproj", "{1AA05104-3DE7-4618-8E07-FCCEDB0BCEDF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Web", "Web", "{D58B5E8B-8A73-41A3-BFEB-66767C7D97F8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "API", "API", "{C9E5F582-BD49-400B-85B8-2C58E42CCC30}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BarDaFatima.API", "BarDaFatima.API\BarDaFatima.API.csproj", "{59C63A64-2969-421C-A091-978A5CD9DC4E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BarDaFatima.Entidades", "BarDaFatima.Entidades\BarDaFatima.Entidades.csproj", "{8242D8AD-02A6-4B59-896D-711D4D6890D1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BarDaFatima.Infra", "BarDaFatima.Infra\BarDaFatima.Infra.csproj", "{D87EEDEE-E9FD-4D68-BC20-1A17B6BBE737}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BarDaFatima.Aplicacao", "BarDaFatima.Aplicacao\BarDaFatima.Aplicacao.csproj", "{F8CA2F74-827B-43C6-A05B-7323FD95B603}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1AA05104-3DE7-4618-8E07-FCCEDB0BCEDF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1AA05104-3DE7-4618-8E07-FCCEDB0BCEDF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1AA05104-3DE7-4618-8E07-FCCEDB0BCEDF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1AA05104-3DE7-4618-8E07-FCCEDB0BCEDF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{59C63A64-2969-421C-A091-978A5CD9DC4E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{59C63A64-2969-421C-A091-978A5CD9DC4E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{59C63A64-2969-421C-A091-978A5CD9DC4E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{59C63A64-2969-421C-A091-978A5CD9DC4E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8242D8AD-02A6-4B59-896D-711D4D6890D1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8242D8AD-02A6-4B59-896D-711D4D6890D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8242D8AD-02A6-4B59-896D-711D4D6890D1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8242D8AD-02A6-4B59-896D-711D4D6890D1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D87EEDEE-E9FD-4D68-BC20-1A17B6BBE737}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D87EEDEE-E9FD-4D68-BC20-1A17B6BBE737}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D87EEDEE-E9FD-4D68-BC20-1A17B6BBE737}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D87EEDEE-E9FD-4D68-BC20-1A17B6BBE737}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F8CA2F74-827B-43C6-A05B-7323FD95B603}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F8CA2F74-827B-43C6-A05B-7323FD95B603}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F8CA2F74-827B-43C6-A05B-7323FD95B603}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F8CA2F74-827B-43C6-A05B-7323FD95B603}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{1AA05104-3DE7-4618-8E07-FCCEDB0BCEDF} = {D58B5E8B-8A73-41A3-BFEB-66767C7D97F8}
+		{59C63A64-2969-421C-A091-978A5CD9DC4E} = {C9E5F582-BD49-400B-85B8-2C58E42CCC30}
+		{8242D8AD-02A6-4B59-896D-711D4D6890D1} = {C9E5F582-BD49-400B-85B8-2C58E42CCC30}
+		{D87EEDEE-E9FD-4D68-BC20-1A17B6BBE737} = {C9E5F582-BD49-400B-85B8-2C58E42CCC30}
+		{F8CA2F74-827B-43C6-A05B-7323FD95B603} = {C9E5F582-BD49-400B-85B8-2C58E42CCC30}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {62B628DC-2742-4752-B5AE-4D77342C7665}
+	EndGlobalSection
+EndGlobal
